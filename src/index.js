@@ -1,10 +1,6 @@
 const express = require('express')
 const app = express()
 
-app.listen(3000, () => {
-  console.log('Servidor rodando na porta 3000')
-})
-
 const data = {
   integrantes: [
     { nome: 'Hevelyn Leivas' },
@@ -21,3 +17,6 @@ app.get('/integrantes', (req, res) => {
   res.json(data)
 })
 
+app.listen(3000, () => {
+  console.log('Servidor rodando na porta 3000')
+})
