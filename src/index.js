@@ -7,9 +7,9 @@ app.listen(3000, () => {
 
 const data = {
   integrantes: [
-    { nome: 'Nome Sobrenome' },
-    { nome: 'Nome Sobrenome' },
-    { nome: 'Nome Sobrenome' }
+    { nome: 'Hevelyn Leivas' },
+    { nome: 'Maisa Grundler' },
+    { nome: 'Isadora Custodio Lopes' }
   ]
 }
 
